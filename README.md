@@ -32,3 +32,7 @@ You can even bundle the css, within the `dist/bundle.js` file, which is very wei
 
 ## Bundling Images
 The commit `bundling-images` shows the changes required for bundling images.
+
+## Resources
+- https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
+- https://blog.andrewray.me/webpack-when-to-use-and-why/
