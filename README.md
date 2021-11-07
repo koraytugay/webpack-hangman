@@ -14,7 +14,8 @@ Steps taken to integrate webpack to the project:
   "prod": "webpack --mode production"
 },
 ```
-- Note one can simply run `npx webpack` as well and the bundle operation will work
-- Now you can open `index.html`
+- Now you need to run `npm run dev` or `npm run prod` to generate the bundle
+  - Note one can simply run `npx webpack` as well and the bundle operation will work
+- Once the bundle is generated, open `index.html`
 
 Previously simply opening the `index.html` was not working since the script was of type module. It is not the case anymore.
