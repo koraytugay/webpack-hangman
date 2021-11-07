@@ -1,5 +1,7 @@
 import HangmanGame from './hangmanService.js';
 
+import '../resources/style.css';
+
 const allowedLetters = 'abcdefghijklmnopqrstuvwxyz';
 let hangmanGame;
 

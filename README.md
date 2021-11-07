@@ -25,4 +25,7 @@ Previously simply opening the `index.html` was not working since the script was 
 - Run `npm run watch`
 - Open `index.html` again
 
-Now whenever you make a change in your JS file, simply reload the application, and they will be in effect. No need to bundle everytime. 
+Now whenever you make a change in your JS file, simply reload the application, and they will be in effect. No need to bundle everytime.
+
+## Bundling CSS
+You can even bundle the css, within the `dist/bundle.js` file, which is very weird. `bundling-css` commit shows the required changes.
