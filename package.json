@@ -1,0 +1,25 @@
+{
+  "name": "webpack-hangman",
+  "version": "1.0.0",
+  "description": "This is a toy hangman game written with Vanilla JS for practice purposes. Running at: https://koraytugay.github.io/vanillahangman",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koraytugay/vanillahangman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koraytugay/vanillahangman/issues"
+  },
+  "homepage": "https://github.com/koraytugay/vanillahangman#readme",
+  "dependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
