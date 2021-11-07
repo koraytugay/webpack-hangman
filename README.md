@@ -19,3 +19,10 @@ Steps taken to integrate webpack to the project:
 - Once the bundle is generated, open `index.html`
 
 Previously simply opening the `index.html` was not working since the script was of type module. It is not the case anymore.
+
+## Introducing watch
+- Add `"watch": "webpack --mode development --watch"` to `scripts`
+- Run `npm run watch`
+- Open `index.html` again
+
+Now whenever you make a change in your JS file, simply reload the application, and they will be in effect. No need to bundle everytime. 
