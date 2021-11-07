@@ -29,3 +29,6 @@ Now whenever you make a change in your JS file, simply reload the application, a
 
 ## Bundling CSS
 You can even bundle the css, within the `dist/bundle.js` file, which is very weird. `bundling-css` commit shows the required changes.
+
+## Bundling Images
+The commit `bundling-images` shows the changes required for bundling images.
